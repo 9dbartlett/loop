@@ -1,10 +1,17 @@
-function loopOne(){
+function loopOne(time = 30){
 
-let time = 30
-while(time > 0)
-if(time % 5 == 0)
-console.log("");
+while(time > 0){
+if(time % 5 == 0){
+console.log("AHHHHHH "+time+" seconds left!");
 }
+else{
+console.log(time+" seconds left.");
+}
+time = time - 1;
+}
+console.log("Done Son!");
+}
+
 
 function loopTwo(){
 

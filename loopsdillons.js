@@ -13,15 +13,22 @@ console.log("Done Son!");
 }
 
 
-function loopTwo(){
+function loopTwo(number, power){
+  let sum = 0;
+  for(let p=0; p <=power; p++){
+    sum = sum + Math.pow(number,power)
+    number = number ++
+  }
+  return sum
+  }
 
+function loopThree(symbol, number){
+  for(let p=0; p<=number;){
+    console.log(symbol);
+    symbol=symbol++
+  }
 
-}
-
-function loopThree(){
-
-
-}
+  }
 
 function main(){
     //Testing each function
